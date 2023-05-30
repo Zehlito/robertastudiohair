@@ -752,14 +752,14 @@ background-size: 100%; color:#FFFFFF; text-shadow:1px 1px 1px  #000;}
 ; font-weight:bold; text-transform:uppercase; font-family:'Dosis', Helvetica, sans-serif; color:#000000;  -webkit-transition-timing-function: ease-out;
 	        transition-timing-function: ease-out;
 	-webkit-transition-duration: 350ms;
-	        transition-duration: 350ms;    overflow:hidden ;   border-radius: 6px 6px 0 0  ; 
+	        transition-duration: 350ms;    overflow:hidden ;      
 
 			
 
 
 }
 
-.lista_prod_img{width:100%; height: 300px;  -webkit-transition-timing-function: ease-out;
+.lista_prod_img{width: 110%; height: 300px;  -webkit-transition-timing-function: ease-out;
 	        transition-timing-function: ease-out;
 	-webkit-transition-duration: 350ms;
 	        transition-duration: 350ms; overflow:hidden}
@@ -773,8 +773,8 @@ background-size: 100%; color:#FFFFFF; text-shadow:1px 1px 1px  #000;}
 }
 
 
-.pro_lista_center{display: table-cell;   vertical-align: middle;   text-align:center; position:relative}			
-			.lista_prod_img img{min-height: 300px; min-width: 100%;}
+.pro_lista_center{display: table-cell;   vertical-align: middle;   text-align:center; position:relative;}			
+			.lista_prod_img img{min-height: 400px; min-width: 100%;}
 
 /* .lista_prod:hover {   box-shadow: 2px 2px 2px 2px  #000; } */
 
@@ -863,7 +863,7 @@ background-size: 100%; color:#FFFFFF; text-shadow:1px 1px 1px  #000;}
 	-webkit-transition-duration: 350ms;
 	        transition-duration: 350ms; overflow:hidden}
 			
-			.lista_prod_img img{height:300px; width:100%}
+			.lista_prod_img img{height:350px; width:100%}
 			
 .lista_prod p{padding-right:5%; padding-left:5%}
 .lista_prod span{font-weight:bold; color:#598D8C; font-size:14px; font-family:'Dosis', Helvetica, sans-serif; margin-bottom:0; padding-left:5%}
